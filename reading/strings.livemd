@@ -80,7 +80,7 @@ In the Elixir cell below, create a string `"Hello, world!"`. This is a rite of p
 programmer.
 
 ```elixir
-
+"Hello, world!"
 ```
 
 ## Multiline Strings
@@ -100,6 +100,8 @@ string = """
 line 1
 line 1
 line 1
+line 2
+line 4
 """
 
 IO.puts(string)
@@ -141,7 +143,7 @@ Replace `nil` with your answer.
 </details>
 
 ```elixir
-
+"hi " <> "sir"
 ```
 
 ### String Interpolation
@@ -181,7 +183,7 @@ In the Elixir cell below, use **string interpolation** to say `I have #{X - 1} c
 </details>
 
 ```elixir
-answer = nil
+"I have #{1 - 1} classmates."
 ```
 
 ## Escaping Characters
